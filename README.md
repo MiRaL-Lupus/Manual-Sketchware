@@ -785,6 +785,184 @@ add source directly []
 
  Блоки Witgets:
 
+1. TextView: ↓ setText []
+
+
+2. TextView: ↓ setTypeface font: ↓ with style typeface: ↓
+
+
+3. TextView: ↓ setTextColor Color: ↓
+
+
+4. TextView: ↓ setTextSize ()
+
+
+5. EditText: ↓ set hint text to []
+
+
+6. EditText: ↓ set hint color to Color: ↓
+
+
+7. EditText: ↓ disable suggestions
+
+
+8. EditText: ↓ set lines ()
+
+
+9. EditText: ↓ singleLine <>
+
+
+10. EditText: ↓ show error []
+
+
+11. EditText: ↓ select all text
+
+
+12. EditText: ↓ set selection start () end ()
+
+
+13. EditText: ↓ set max lines ()
+
+
+14. EditText: ↓ get selection start
+
+
+15. EditText: ↓ get selection end
+
+
+16. TextView: ↓ getText
+
+
+17. CheckBox: ↓ setChecked <>
+
+
+18. CheckBox: ↓ getChecked
+
+
+19. AutoComplete: ↓ setListData List String: ↓
+
+
+20. MultiAutoComplete: ↓ setListData List String: ↓
+
+
+21. MultiAutoComplete: ↓ setThreshold ()
+
+
+22. MultiAutoComplete: ↓ CommaTokenizer
+
+
+23. ImageView: ↓ setImage Image: ↓
+
+
+24. ImageView: ↓ setImage image: ↓
+
+
+25. ImageView: ↓ set image by name []
+
+
+26. ImageView: ↓ set image from file path []
+
+
+27. ImageView: ↓ set image from url []
+
+
+28. ImageView: ↓ setColorFilter Color: ↓
+
+
+29. RatingBar: ↓ setRating ()
+
+
+30. RatingBar: ↓ setNumStars ()
+
+
+31. RatingBar: ↓ setStepSize ()
+
+
+32. RatingBar: ↓ getRating
+
+
+33. SeekBar: ↓ setProgress ()
+
+
+34. SeekBar: ↓ setMax ()
+
+
+35. SeekBar: ↓ getProgress
+
+
+36. SeekBar: ↓ getMax
+
+
+37. ProgressBar: ↓ setIndeterminate <>
+
+
+38. VideoView: ↓ setVideoUri []
+
+
+39. VideoView: ↓ start
+
+
+40. VideoView: ↓ pause
+
+
+41. VideoView: ↓ stopPlayback
+
+
+42. VideoView: ↓ isPlaying <>
+
+
+43. VideoView: ↓ canSeekForward <>
+
+
+44. VideoView: ↓ canSeekBackward <>
+
+
+45. VideoView: ↓ getCurrentPosition
+
+
+46. VideoView: ↓ getDuration
+
+
+47. WebView: ↓ loadUrl []
+
+
+48. WebView: ↓ setCacheMode cacheMode: ↓
+
+
+49. WebView: ↓ goBack
+
+
+50. WebView: ↓ goForward
+
+
+51. WebView: ↓ clearCache
+
+
+52. WebView: ↓ clearHistory
+
+
+53. WebView: ↓ stopLoading
+
+
+54. WebView: ↓ getUrl
+
+
+55. WebView: ↓ getProgress
+
+
+56. WebView: ↓ canGoBack <>
+
+
+57. WebView: ↓ canGoForward <>
+
+
+58. WebView: ↓ zoomIn
+
+
+59. WebView: ↓ zoomOut
+
+
+блоки List:
 
 
 
