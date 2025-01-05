@@ -964,6 +964,116 @@ add source directly []
 
 блоки List:
 
+1. Spinner: ↓ setSpinnerData List String: ↓
+
+
+2. Spinner: ↓ setSpinnerCustomViewData List Map: ↓
+
+
+3. Spinner: ↓ refreshData
+
+
+4. Spinner: ↓ setSelection ()
+
+
+5. Spinner: ↓ getSelection
+
+
+6. ListView: ↓ setListViewData List String: ↓
+
+
+7. ListView: ↓ setListCustomViewData List Map: ↓
+
+
+8. ListView: ↓ refreshData
+
+
+9. ListView: ↓ invalidate views
+
+
+10. ListView: ↓ smoothScrollToPosition ()
+
+
+11. ListView: ↓ set selection ()
+
+
+12. ListView: ↓ setTranscriptMode transcriptmode: ↓
+
+
+13. ListView: ↓ setStackFromBottom <>
+
+
+14. ListView: ↓ add Header view View: ↓ data [] selectable? <>
+
+
+15. ListView: ↓ remove Header View: ↓
+
+
+16. ListView: ↓ add Footer view View: ↓ data [] selectable? <>
+
+
+17. ListView: ↓ remove Footer View: ↓
+
+
+18. RecyclerView: ↓ setRecyclerCustomViewData List Map: ↓
+
+
+19. RecyclerView: ↓ setLayoutManager
+
+
+20. RecyclerView: ↓ set Horizontal LayoutManager
+
+
+21. RecyclerView: ↓ setHasFixedSize <>
+
+
+22. RecyclerView: ↓ smoothScrollToPosition ()
+
+
+23. RecyclerView: ↓ scrollToPosition () offset ()
+
+
+24. GridView: ↓ setGridCustomViewData List Map: ↓
+
+
+25. GridView: ↓ setNumColumns ()
+
+
+26. GridView: ↓ setColumnWidth ()
+
+
+27. GridView: ↓ setVerticalSpacing ()
+
+
+28. GridView: ↓ setHorizontalSpacing ()
+
+
+29. GridView: ↓ setStretchMode gridstretchmode: ↓
+
+
+30. ViewPager: ↓ setPagerCustomViewData List Map: ↓
+
+
+31. ViewPager: ↓ setFragmentAdapter FragmentAdapter: ↓ TabCount ()
+
+
+32. ViewPager: ↓ setOffscreenPageLimit ()
+
+
+33. ViewPager: ↓ setCurrentItem ()
+
+
+34. ViewPager: ↓ notifyDataSetChanged
+
+
+35. ViewPager: ↓ getOffscreenPageLimit
+
+
+36. ViewPager: ↓ getCurrentItem
+
+
+ блоки AndroidX Component:
+
 
 
 
