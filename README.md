@@ -1350,6 +1350,248 @@ add source directly []
 
 ---
 
+Раздел блоков Component:
+
+
+1. Context: ↓ set statebar color Color: ↓
+
+
+2. LightStatusBar
+
+
+3. Show keyboard
+
+
+4. Hide keyboard
+
+
+5. Toast []
+
+
+6. copyToClipboard []
+
+
+7. Activity set title []
+
+
+8. Activity hasExtra key <>
+
+
+9. Activity getExtra key []
+
+
+10. Finish Activity
+
+
+11. Finish Affinity
+
+
+Блоки Intent:
+
+Intent : ↓ setAction intentAction : ↓
+
+Intent : ↓ setData []
+
+Intent : ↓ setType []
+
+Intent : ↓ setScreen Context : ↓
+
+Intent : ↓ set app package []
+
+Intent : ↓ putExtra key [] value []
+
+Intent : ↓ removeExtra key []
+
+Intent : ↓ setFlags intentFlags : ↓
+
+StartActivity Intent : ↓
+
+StartActivity Intent : ↓ with Chooser []
+
+
+
+Блоки SharedPreferences:
+
+SharedPreferences : ↓ contains []
+
+SharedPreferences : ↓ getData key []
+
+SharedPreferences : ↓ setData key [] value []
+
+SharedPreferences : ↓ removeData key []
+
+
+
+Блоки DatePickerDialog:
+
+DatePickerDialog show
+
+
+
+Блоки Vibrator:
+
+Vibrator: ↓ vibrate for () ms
+
+
+
+Блоки Timer:
+
+Timer: ↓ after () ms
+
+Timer: ↓ after () ms for every () ms
+
+Timer: ↓ cancel
+
+
+
+Блоки Calendar:
+
+Calendar: ↓ getNow
+
+Calendar: ↓ add calendarField: ↓ value ()
+
+Calendar: ↓ set calendarField: ↓ value ()
+
+Calendar: ↓ Format []
+
+Difference Calendar: ↓ - Calendar: ↓
+
+Calendar: ↓ getTime(ms)
+
+Calendar: ↓ setTime () ms
+
+
+
+Блоки AsyncTask:
+
+AsyncTask: ↓ execute message []
+
+AsyncTask: ↓ publish progress ()
+
+
+
+
+Блоки TimePickerDialog:
+
+TimePickerDialog: ↓ show
+
+
+
+Блоки Dialog:
+
+Dialog: ↓ set title []
+
+Dialog: ↓ setIcon BackgroundImage: ↓
+
+Dialog: ↓ set message []
+
+Dialog: ↓ OK Button [] Clicked
+
+Dialog: ↓ Cancel Button [] Clicked
+
+Dialog: ↓ Neutral Button [] Clicked
+
+Dialog: ↓ show
+
+
+Блоки MediaPlayer:
+
+MediaPlayer: ↓ create sound: ↓
+
+MediaPlayer: ↓ start
+
+MediaPlayer: ↓ pause
+
+MediaPlayer: ↓ seek to ()
+
+MediaPlayer: ↓ get current duration
+
+MediaPlayer: ↓ get song duration
+
+MediaPlayer: ↓ is playing <>
+
+MediaPlayer: ↓ set looping <>
+
+MediaPlayer: ↓ is looping <>
+
+MediaPlayer: ↓ reset
+
+MediaPlayer: ↓ release
+
+
+
+Блоки SoundPool:
+
+SoundPool: ↓ create max stream count ()
+
+SoundID: SoundPool: ↓ load sound: ↓
+
+StreamID: SoundPool: ↓ play Sound ID () 1+ () times
+
+SoundPool: ↓ stop stream ID ()
+
+
+
+
+Блоки ObjectAnimator:
+
+ObjectAnimator: ↓ animate View: ↓ property: ↓ value from () to () duration ()
+
+ObjectAnimator: ↓ set interpolator interpolator: ↓
+
+ObjectAnimator: ↓ start
+
+ObjectAnimator: ↓ cancel
+
+
+
+Блоки Firebase:
+
+Firebase DB: ↓ add key [] value Map: ↓
+
+Firebase DB: ↓ push value Map: ↓
+
+Firebase DB: ↓ push getKey
+
+Firebase DB: ↓ delete key []
+
+Firebase DB: ↓ get children to List Map: ↓ then
+
+Firebase DB: ↓ start Listening
+
+Firebase DB: ↓ stop Listening
+
+
+
+
+Блоки FirebaseAuth:
+
+FirebaseAuth getEmail
+
+FirebaseAuth getUid
+
+FirebaseAuth isLoggedIn
+
+Firebase Auth: ↓ createUserWith Email [] and Password []
+
+Firebase Auth: ↓ signInWith Email [] and Password []
+
+Firebase Auth: ↓ signInAnonymously
+
+Firebase Auth: ↓ send password reset email to []
+
+FirebaseAuth signOut
+
+DynamicLink: setHost [] setScheme []
+
+
+Gyroscope
+
+Gyroscope: ↓ Sensor start
+
+Gyroscope: ↓ Sensor stop
+
+
 
 
 
