@@ -676,6 +676,116 @@ add source directly []
 
 
 ---
+Раздел View:
+основные блоки:
+
+1. View: ↓ setEnable
+
+
+2. visibility of View: ↓ equals visible: ↓
+
+
+3. View: ↓ setVisible visible: ↓
+
+
+4. View: ↓ setElevation ()
+
+
+5. View: ↓ getEnable
+
+
+6. View: ↓ setRotation ()
+
+
+7. View: ↓ getRotation
+
+
+8. View: ↓ setAlpha ()
+
+
+9. View: ↓ getAlpha
+
+
+10. View: ↓ setTranslationX ()
+
+
+11. View: ↓ getTranslationX
+
+
+12. View: ↓ setTranslationY ()
+
+
+13. View: ↓ getTranslationY
+
+
+14. View: ↓ setScaleX ()
+
+
+15. View: ↓ getScaleX
+
+
+16. View: ↓ setScaleY ()
+
+
+17. View: ↓ getScaleY
+
+
+18. View: ↓ request focus
+
+
+19. View: ↓ getLocationX
+
+
+20. View: ↓ getLocationY
+
+
+21. View: ↓ getHeight
+
+
+22. View: ↓ getWidth
+
+
+23. View: ↓ removeView View: ↓
+
+
+24. View: ↓ removeAllViews
+
+
+25. View: ↓ addView View: ↓
+
+
+26. View: ↓ addView View: ↓ index ()
+
+
+27. View: ↓ setGravity gravity_v: ↓ gravity_h: ↓
+
+
+28. View: ↓ setColorFilter Color: ↓ with porterduff: ↓
+
+
+29. View: ↓ setBackgroundColor Color: ↓
+
+
+30. View: ↓ setBackgroundResource BackgroundImage: ↓
+
+
+31. View: ↓ setBackgroundDrawable drawable: ↓
+
+
+32. View: ↓ setStroke strokeColor Color: ↓ bgColor Color: ↓
+
+
+33. View: ↓ setCornerRadius color Color: ↓
+
+
+34. View: ↓ setGradientBackground Color: ↓ and Color: ↓
+
+
+35. View: ↓ getChildAt ()
+
+ Блоки Witgets:
+
+
 
 
 
