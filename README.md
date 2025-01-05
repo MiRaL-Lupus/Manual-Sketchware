@@ -559,6 +559,124 @@ add source directly []
 
 ---
 
+Раздел File
+
+1. resize image retain ratio from path [] to path [] max size ()
+
+
+2. resize image to square from path [] to path [] max size ()
+
+
+3. resize image to circle from path [] to path []
+
+
+4. resize image rounded from path [] to path [] round pixels ()
+
+
+5. crop image center from path [] to path [] width () height ()
+
+
+6. rotate image from path [] to path [] angle ()
+
+
+7. scale image from path [] to path [] x () y ()
+
+
+8. skew image from path [] to path []
+
+
+9. set image color filter from path [] to path [] color Color: ↓
+
+
+10. set image brightness from path [] to path [] value ()
+
+
+11. set image contrast from path [] to path [] value ()
+
+
+12. file list in path [] to List String: ↓
+
+
+13. make directory path []
+
+
+14. rename file path [] to []
+
+
+15. delete file path []
+
+
+16. move file path [] to path []
+
+
+17. copy dir path [] to path []
+
+
+18. copy file path [] to path []
+
+
+19. write String [] to file path []
+
+
+20. File: ↓ canExecute
+
+
+21. File: ↓ canRead
+
+
+22. File: ↓ canWrite
+
+
+23. File: ↓ getName
+
+
+24. File: ↓ getParent
+
+
+25. File: ↓ getPath
+
+
+26. File: ↓ isHidden
+
+
+27. is exist file path []
+
+
+28. get jpeg rotate from file path []
+
+
+29. read file path []
+
+
+30. path [] is directory
+
+
+31. path [] is file
+
+
+32. get length of path []
+
+
+33. path [] starts with []
+
+
+34. path [] ends with []
+
+
+35. get last segment path of []
+
+
+36. get external storage directory
+
+
+37. get package data directory
+
+
+38. get public directory type directoryType: ↓
+
+
+---
+
 
 
 
