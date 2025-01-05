@@ -482,6 +482,84 @@ add source directly []
 
 ---
 
+Раздел Math:
+
+
+1. getDip ()
+
+
+2. getDisplayWidthPixels
+
+
+3. getDisplayHeightPixels
+
+
+4. PI(π)
+
+
+5. E(e)
+
+
+6. to the power () ()
+
+
+7. minimum of () and ()
+
+
+8. maximum of () and ()
+
+
+9. square root of ()
+
+
+10. absolute value of ()
+
+
+11. round ()
+
+
+12. ceil ()
+
+
+13. floor ()
+
+
+14. sin ()
+
+
+15. cos ()
+
+
+16. tan ()
+
+
+17. arcsin ()
+
+
+18. arccos ()
+
+
+19. arctan ()
+
+
+20. exp ()
+
+
+21. ln ()
+
+
+22. log ()
+
+
+23. Degree () to Radian
+
+
+24. Radian () to Degree
+
+
+---
+
+
 
 
 ---
