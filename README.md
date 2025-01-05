@@ -253,6 +253,3 @@ VOID - shuffle List: ↓
 
 Пример сложного блока:
 VOID - Custom_Block <> () [] List Number: ↓
-
-
-
