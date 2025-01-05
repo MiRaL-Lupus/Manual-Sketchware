@@ -377,6 +377,110 @@ isEmpty <>
 
 ---
 
+Раздел Operator:
+
+
+блоки Boolean (имеют форму шестиугольников):
+
+------
+
+true
+
+false
+
+() < ()
+
+<> and <>
+
+<> or <>
+
+<> not <>
+
+блоки Number (имеют форму овала):
+
+() + ()
+
+() - ()
+
+() * ()
+
+() / ()
+
+() % ()
+
+------
+
+продолжение раздела Operator:
+
+
+pick random () to ()
+
+length of []
+
+join [] and []
+
+index of [] in []
+
+last index of [] in []
+
+substring [] to []
+
+subString []
+
+equals [] []
+
+contains []
+
+matches RegExp []
+
+replace all [] with []
+
+replace all RegEx [] with []
+
+replace first RegEx [] with []
+
+reverse []
+
+html []
+
+trim []
+
+toUpperCase []
+
+toLowerCase []
+
+toNumber []
+
+parse int []
+
+toHashCode []
+
+toString () without decimal
+
+toString () with decimal
+
+toDecimalFormat []
+
+JSON [] to Map: ↓
+
+Map: ↓ to JSON String
+
+JSON [] to List Map: ↓
+
+List Map: ↓ to JSON String
+
+JSON [] to List String: ↓
+
+JSON [] to List Number: ↓
+
+List: ↓ to JSON String
+
+split [] RegExp [] into List String: ↓
+
+add source directly []
+
+
+---
 
 
 
