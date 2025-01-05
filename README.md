@@ -171,34 +171,57 @@ Intent, Dialog, MediaPlayer.
 
 Раздел Variable
 
-1. Boolean:
-
-VOID - set Boolean: ↓ to <>
 
 
+set Boolean: <> to <>
 
-2. Number:
+set Number: <> to ()
 
-VOID - set Number: ↓ to ()
+Number: increase 1, decrease 1
 
-VOID - Number: ↓ increase 1
+set String: <> to []
 
+Map: create new map
 
+Map: put key [] value []
 
-3. String:
+Map: put key [] value ()
 
-VOID - set String: ↓ to []
+Map: put key [] value double ()
 
+Map: put key [] value <>
 
+Map: put key [] value Map: ↓
 
-4. Map:
+Map: put key [] value List String: ↓
 
-VOID - Map: ↓ create new map
+Map: put key [] value List Map: ↓
 
-STRING - Map: ↓ get key []
+Map: get key []
 
-NUMBER - Map: ↓ get number key []
+Map: get number key ()
 
+Map: get boolean key <>
+
+Map: get Map key Map: ↓
+
+Map: get List String key List String: ↓
+
+Map: get List Map key List Map: ↓
+
+Map: is empty <>
+
+Map: contain key []
+
+Map: contain value []
+
+Map: size ()
+
+Map: remove key []
+
+Map: clear
+
+Map: get all keys to List String: ↓
 
 
 
@@ -207,28 +230,152 @@ NUMBER - Map: ↓ get number key []
 
 Раздел List
 
-1. List Number:
-
-BOOLEAN - List Number: ↓ contains ()
-
-NUMBER - get at () of List Number: ↓
 
 
+List Number: contains ()
 
-2. List String:
+List Number: get at () of List Number: ↓
 
-BOOLEAN - List String: ↓ contains []
+List Number: index () in List Number: ↓
 
-STRING - get at [] of List String: ↓
+List Number: add () to List Number: ↓
+
+List Number: insert () at () to List Number: ↓
+
+List Number: set () at () of List Number: ↓
+
+List Number: sort List Number: ↓
+
+List String: contains []
+
+List String: index [] in List String: ↓
+
+List String: get at () of List String: ↓
+
+List String: add [] to List String: ↓
+
+List String: insert [] at () to List String: ↓
+
+List String: set [] at () of List String: ↓
+
+List String: sort List String: ↓
+
+List: addAll from List: ↓
+
+List: delete at () of List: ↓
+
+List: clear List: ↓
+
+List: reverse List: ↓
+
+List: shuffle List: ↓
+
+List: swap List: ↓ position () with ()
+
+List: length of List: ↓
+
+List Map: contains at () key []
+
+List Map: get value at [] key () of List Map: ↓
+
+List Map: get Map at () of List Map: ↓
+
+List Map: add key [] value [] to List Map: ↓
+
+List Map: insert key [] value [] at () to List Map: ↓
+
+List Map: set key [] value [] at () to List Map: ↓
+
+List Map: set Map: ↓ at () of List Map: ↓
+
+List Map: add Map: ↓ to List Map: ↓
+
+List Map: insert Map: ↓ at () to List Map: ↓
+
+List Map: get at () of List Map: ↓ to Map: ↓
+
+List Map: delete Map: ↓ of List Map: ↓
+
+List Map: sort List Map: ↓ key () isNumber <> isAscending <>
+
+
+---
+Раздел Control:
+
+1. Управление циклами:
+
+repeat ()
+
+repeat () ++
+
+repeat () --
+
+forever
+
+while <>
 
 
 
-3. Общие операции:
+2. Условия:
 
-NUMBER - length of List: ↓
+if <> then
 
-VOID - shuffle List: ↓
+if <> then else
 
+switch []
+
+case [] and
+
+case () and
+
+
+
+3. Обработка исключений:
+
+try
+
+catch
+
+
+
+4. Возврат значений:
+
+return []
+
+return ()
+
+return <>
+
+return Map: ↓
+
+return List String: ↓
+
+return List Map: ↓
+
+return View: ↓
+
+
+
+5. Поток управления:
+
+stop
+
+continue
+
+
+
+6. Логика:
+
+instanceOf <>
+
+isEmpty <>
+
+<boolean> ? :
+
+() ? :
+
+
+---
 
 
 
