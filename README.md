@@ -1074,6 +1074,80 @@ add source directly []
 
  блоки AndroidX Component:
 
+1. BottomNavigation: ↓ add item id () title [] icon Image: ↓
+
+
+2. When SwipeRefreshLayout: ↓ refreshed
+
+
+3. SwipeRefreshLayout: ↓ setRefreshing <>
+
+
+4. CardView: ↓ setCardBackgroundColor Color: ↓
+
+
+5. CardView: ↓ setCornerRadius ()
+
+
+6. CardView: ↓ setCardElevation ()
+
+
+7. CardView: ↓ setPreventCornerOverlap <>
+
+
+8. CardView: ↓ setUseCompatPadding <>
+
+
+9. TabLayout: ↓ addTabTitle []
+
+
+10. TabLayout: ↓ setupWithViewPager ViewPager: ↓
+
+
+11. TabLayout: ↓ setInlineLabel <>
+
+
+12. TabLayout: ↓ setTabTextColors Normal Color: ↓ Selected Color: ↓
+
+
+13. TabLayout: ↓ setTabRippleColor Color: ↓
+
+
+14. TabLayout: ↓ setSelectedTabIndicatorColor Color: ↓
+
+
+15. TabLayout: ↓ setSelectedTabIndicatorHeight ()
+
+
+16. TextInputLayout: ↓ setBoxBackgroundColor Color: ↓
+
+
+17. TextInputLayout: ↓ setBoxStrokeColor Color: ↓
+
+
+18. TextInputLayout: ↓ setBoxBackgroundMode til_box_mode: ↓
+
+
+19. TextInputLayout: ↓ setBoxCornerRadius TL () TR () BL () BR ()
+
+
+20. TextInputLayout: ↓ setError []
+
+
+21. TextInputLayout: ↓ setErrorEnabled <>
+
+
+22. TextInputLayout: ↓ setCounterEnabled <>
+
+
+23. TextInputLayout: ↓ setCounterMaxLength ()
+
+
+24. TextInputLayout: ↓ getCounterMaxLength
+
+
+блоки Library:
+
 
 
 
