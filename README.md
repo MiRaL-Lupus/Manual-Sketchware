@@ -1148,6 +1148,210 @@ add source directly []
 
 блоки Library:
 
+1. OTPView: ↓ setFieldCount ()
+
+
+2. OTPView: ↓ setOTPText []
+
+
+3. OTPView: ↓ onOTPEntered -> _otp
+
+
+4. OTPView: ↓ getOTPText
+
+
+5. BadgeView: ↓ getBadgeCount
+
+
+6. BadgeView: ↓ setBadgeNumber ()
+
+
+7. BadgeView: ↓ setBadgeString []
+
+
+8. BadgeView: ↓ setBadgeBackground Color: ↓
+
+
+9. BadgeView: ↓ setBadgeTextColor Color: ↓
+
+
+10. BadgeView: ↓ setBadgeTextSize ()
+
+
+11. WaveSideBar: ↓ setCustomLetter String: []
+
+
+12. BubbleLayout View: ↓ setBubbleColor Color: ↓
+
+
+13. BubbleLayout View: ↓ setStrokeColor Color: ↓
+
+
+14. BubbleLayout View: ↓ setStrokeWidth ()
+
+
+15. BubbleLayout View: ↓ setCornerRadius ()
+
+
+16. BubbleLayout View: ↓ setArrowHeight ()
+
+
+17. BubbleLayout View: ↓ setArrowWidth ()
+
+
+18. BubbleLayout View: ↓ setArrowPosition ()
+
+
+19. PatternLockView: ↓ setDotCount ()
+
+
+20. PatternLockView: ↓ setNormalStateColor Color: ↓
+
+
+21. PatternLockView: ↓ setCorrectStateColor Color: ↓
+
+
+22. PatternLockView: ↓ setWrongStateColor Color: ↓
+
+
+23. PatternLockView: ↓ setViewMode patternviewmode: ↓
+
+
+24. PatternLockView: ↓ clearPattern
+
+
+25. CodeView: ↓ setCode []
+
+
+26. CodeView: ↓ setLanguage cv_language: ↓
+
+
+27. CodeView: ↓ setTheme cv_theme: ↓
+
+
+28. CodeView: ↓ apply
+
+
+29. LottieAnimation: ↓ setAnimationFromAsset []
+
+
+30. LottieAnimation: ↓ setAnimationFromJson []
+
+
+31. LottieAnimation: ↓ setAnimationFromUrl []
+
+
+32. LottieAnimation: ↓ setRepeatCount ()
+
+
+33. LottieAnimation: ↓ setSpeed ()
+
+
+34. PatternLockView: ↓ getPattern from List String: ↓ to String
+
+
+35. PatternLockView: ↓ getPattern from List String: ↓ to MD5
+
+
+36. PatternLockView: ↓ getPattern from List String: ↓ to SHA1
+
+
+блоки Goggle:
+
+1. SignInButton: ↓ setColorScheme SignButtonColor: ↓
+
+
+2. SignInButton: ↓ setSize SignButtonSize: ↓
+
+
+3. YouTubePlayer: ↓ geLifecycle
+
+
+4. YouTubePlayer: ↓ addYouTubePlayerListener VideoID: []
+
+
+5. MapView: ↓ set Map type mapType: ↓
+
+
+6. MapView: ↓ move camera lat () lng ()
+
+
+7. MapView: ↓ zoom to ()
+
+
+8. MapView: ↓ zoom in
+
+
+9. MapView: ↓ zoom out
+
+
+10. MapView: ↓ add marker id [] position lat () lng ()
+
+
+11. MapView: ↓ marker id [] set title [] snippet []
+
+
+12. MapView: ↓ marker id [] set position lat () lng ()
+
+
+13. MapView: ↓ marker id [] set color markerColor: ↓ alpha ()
+
+
+14. MapView: ↓ marker id [] set icon Image: ↓
+
+
+15. MapView: ↓ marker id [] set visible <>
+
+
+блоки Date & Time:
+
+1. TimePicker: ↓ setHour ()
+
+
+2. TimePicker: ↓ setMinute ()
+
+
+3. TimePicker: ↓ setCurrentHour ()
+
+
+4. TimePicker: ↓ setCurrentMinute ()
+
+
+5. TimePicker: ↓ setIs24Hour <>
+
+
+6. CalendarView: ↓ setDate () ms
+
+
+7. CalendarView: ↓ setMinDate () ms
+
+
+8. CalendarView: ↓ setMaxDate () ms
+
+
+блоки Function:
+
+1. View: ↓ performClick
+
+
+2. When View: ↓ clicked
+
+
+3. When View: ↓ long clicked
+
+
+4. When View: ↓ touched
+
+
+5. View: ↓ showSnackbar text [] actionText [] onClick
+
+
+--- конец раздела View ---
+
+---
+
+
+
 
 
 
