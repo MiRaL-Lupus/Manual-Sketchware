@@ -1585,7 +1585,7 @@ FirebaseAuth signOut
 DynamicLink: setHost [] setScheme []
 
 
-Gyroscope
+Блоки Gyroscope:
 
 Gyroscope: ↓ Sensor start
 
@@ -1594,6 +1594,148 @@ Gyroscope: ↓ Sensor stop
 
 
 
+Блоки AdMob Interstitial:
+
+InterstitialAd : ↓ load in Context : ↓
+
+InterstitialAd : ↓ show ad in Context : ↓
+
+InterstitialAd : ↓ register fullscreen content callbacks
+
+
+
+Блоки RewardedVideoAd:
+
+RewardedAd VideoAd : ↓ load with Context : ↓
+
+RewardedAd VideoAd : ↓ show Context : ↓
+
+VideoAd : ↓ register fullscreen content callbacks
+
+
+
+
+Блоки Firebase Storage:
+
+FirebaseStorage : ↓ upload file path [] name as []
+
+FirebaseStorage : ↓ download file url [] to file path []
+
+FirebaseStorage : ↓ delete file url []
+
+
+Блоки Camera:
+
+Camera : ↓ take picture
+
+
+
+Блоки FilePicker:
+
+FilePicker : ↓ pick files
+
+CropImageView fromFilePath [] RequestCode ()
+
+
+
+Блоки RequestNetwork:
+
+isConnected
+
+RequestNetwork : ↓ set params Map : ↓ to request type requestType : ↓
+
+RequestNetwork : ↓ set headers Map : ↓
+
+RequestNetwork : ↓ start network request to method method : ↓ to url [] with tag []
+
+
+
+
+Блоки TextToSpeech:
+
+TextToSpeech : ↓ is speaking
+
+TextToSpeech : ↓ set pitch ()
+
+TextToSpeech : ↓ set speech rate ()
+
+TextToSpeech : ↓ set speak []
+
+TextToSpeech : ↓ stop
+
+TextToSpeech : ↓ shutdown
+
+
+
+Блоки SpeechToText:
+
+SpeechToText: ↓ start listening
+
+SpeechToText: ↓ stop listening
+
+SpeechToText: ↓ shutdown
+
+
+
+
+Блоки Bluetooth:
+
+BluetoothConnect: ↓ ready connection with tag []
+
+BluetoothConnect: ↓ ready connection to uuid [] with tag []
+
+BluetoothConnect: ↓ start connection to address [] with tag []
+
+BluetoothConnect: ↓ start connection to uuid [] and address [] with tag []
+
+BluetoothConnect: ↓ stop connection with tag []
+
+BluetoothConnect: ↓ send data [] with tag []
+
+BluetoothConnect: ↓ activate bluetooth
+
+BluetoothConnect: ↓ get paired devices to List Map: ↓
+
+BluetoothConnect: ↓ is bluetooth enabled
+
+BluetoothConnect: ↓ is bluetooth activated
+
+BluetoothConnect: ↓ get random uuid
+
+
+
+
+Блоки LocationManager:
+
+LocationManager: ↓ request location updates type providerType: ↓ min time () min distance ()
+
+LocationManager: ↓ remove updates
+
+
+
+Блоки ProgressDialog:
+
+ProgressDialog: ↓ Create in Context ↓
+
+ProgressDialog: ↓ setTitle []
+
+ProgressDialog: ↓ setMessage []
+
+ProgressDialog: ↓ setMax ()
+
+ProgressDialog: ↓ setProgress ()
+
+ProgressDialog: ↓ setCancelable
+
+ProgressDialog: ↓ setCancelableWhenTouchOutside
+
+ProgressDialog: ↓ setProgressStyle styleprogress: ↓
+
+ProgressDialog: ↓ show
+
+ProgressDialog: ↓ dismiss
+
+---Конец раздела Component ---
 
 
 
